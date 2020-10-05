@@ -1,3 +1,9 @@
 nav {
     font-size: 17px;
+    background-color: #e86320;
+    color: white;
+}
+
+a {
+    color: white !important;
 }

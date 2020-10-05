@@ -5,8 +5,8 @@ import { FormsModule} from '@angular/forms';
 import { APP_ROUTES } from '../app.routes';
 import { AppComponent } from '../app.component';
 import { NavigationComponent } from '../components/navigation/navigation.component';
-import { PersonFormComponent } from '../pages/person-form/person-form.component';
-import { PersonListComponent } from '../pages/person-list/person-list.component';
+import { PlayComponent } from '../pages/play/play.component';
+import { RankingComponent } from '../pages/ranking/ranking.component';
 
 import {PersonService} from '../services/person.service';
 import { PagPrincipalComponent } from '../pages/pag-principal/pag-principal.component';
@@ -15,17 +15,19 @@ import { PagesComponent } from '../pages/pages.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { PAGE_ROUTES } from './pages.routes';
+import { CardQuestionComponent } from './card-question/card-question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    PersonFormComponent,
-    PersonListComponent,
+    PlayComponent,
+    RankingComponent,
     PagPrincipalComponent,
     SignInComponent,
     PagesComponent,
-    FooterComponent
+    FooterComponent,
+    CardQuestionComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { PAGE_ROUTES } from './pages.routes';
     FormsModule,
     APP_ROUTES,
     RouterModule,
-    PAGE_ROUTES
+    PAGE_ROUTES,
+    CardQuestionComponent
   ],
   providers: [
     PersonService,

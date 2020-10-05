@@ -1,34 +1,53 @@
 <!-- ============================================================== -->
 <!-- Main wrapper - -->
 <!-- ============================================================== -->
-<section id="wrapper" class="login-register login-sidebar  animated fadeIn fast" style="background-image:url(../assets/images/emprendedor.jpg);">
+<section id="wrapper" class="login-register login-sidebar  animated fadeIn fast"
+    style="background-image:url(../assets/images/unipanamericana.jpg);">
     <div class="login-box card">
         <div class="card-body">
             <form class="form-horizontal form-material" (ngSubmit)="enter()">
-                <h1 style="text-align: center;"> <i class="fas fa-user-tie fa-3x">
-                  <br><b>SECP</b>
-                </i> </h1>
+               
+               <h1 style="text-align: center;">PREGUNTADOS <i class="fas fa-question-circle"></i> </h1>
                 <br>
                 <div class="form-group m-t-40 ">
                     <div class="col-xs-12 ">
-                        <input class="form-control " type="text " required=" " placeholder="Usuario ">
+                        <input class="form-control " type="text " required=" " placeholder="Estudiante ">
                     </div>
                 </div>
                 <div class="form-group ">
                     <div class="col-xs-12 ">
-                        <input class="form-control " type="password " required=" " placeholder="Contraseña ">
+                        <input class="form-control " type="text " required=" " placeholder="Nickname ">
                     </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-xs-12 ">
+                        <input class="form-control " type="text " required=" " placeholder="Carrera universitaria ">
+                    </div>
+                </div>
+                <div class="form-group m-t-40 ">
+                    <div class="col-xs-12 ">
+                        <input class="form-control " type="text " required=" " placeholder="Correo Instucional ">
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-xs-12 ">
+                        <input class="form-control " type="text " required=" " placeholder="URL Imagen">
+                    </div>
+                </div>
+                <div class="imagen-form">
+                    <img class="imagen-form" src="https://www.softzone.es/app/uploads/2018/04/guest.png" id="imagen">
                 </div>
                 <div class="form-group row ">
                 </div>
                 <div class="form-group text-center m-t-20 ">
                     <div class="col-xs-12 ">
-                        <button class="btn btn-primary btn-lg btn-block text-uppercase btn-rounded " type="submit ">Ingresar</button>
+                        <button style="background-color: #e86320; color: white;" class="btn btn-lg btn-block text-uppercase btn-rounded "
+                            type="submit ">Ingresar</button>
                     </div>
                 </div>
                 <div class="form-group m-b-0 ">
                     <div class="col-sm-12 text-center ">
-                        ¿No tienes una cuenta? <b>Notificalo a tu superior</b>
+                        Bienenvenido a Preguntados: Infraestructure edition, te pedimos diligenciar tus datos con el fin de tener la certeza de quién está participando
                     </div>
                 </div>
             </form>
